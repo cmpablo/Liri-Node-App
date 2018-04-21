@@ -1,5 +1,5 @@
 {
-  "name": "Liri-Node-App",
+  "name": "liri-node-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/cmpablo/Liri-Node-App.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "packages", "npm", "ucf", "ucfbc", "class"],
+  "author": "Christine Pablo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cmpablo/Liri-Node-App/issues"
