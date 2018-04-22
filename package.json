@@ -10,7 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/cmpablo/Liri-Node-App.git"
   },
-  "keywords": ["node", "packages", "npm", "ucf", "ucfbc", "class"],
+  "keywords": [
+    "node",
+    "packages",
+    "npm",
+    "ucf",
+    "ucfbc",
+    "class"
+  ],
   "author": "Christine Pablo",
   "license": "ISC",
   "bugs": {
@@ -18,6 +25,7 @@
   },
   "homepage": "https://github.com/cmpablo/Liri-Node-App#readme",
   "dependencies": {
+    "chalk": "^2.4.0",
     "dotenv": "^5.0.1",
     "node-spotify-api": "^1.0.7",
     "request": "^2.85.0",
