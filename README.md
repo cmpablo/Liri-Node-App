@@ -8,36 +8,31 @@ LIRI Node App is a **L**anguage **I**nterpretation and **R**ecognition **I**nter
 
 Using the command line...
 
-ask LIRI to get the tweets of user See_Pablo:
+ask LIRI to get | command
+--------------- | -----------------------------
 
-*node liri.js my-tweets*
+the tweets of user See_Pablo | node liri.js my-tweets
 
-ask LIRI to get song information from Spotify:
+song information from Spotify | node liri.js spotify-this-song Lets Go Crazy
 
-*node liri.js spotify-this-song Lets Go Crazy*
+movie information from OMDB | node liri.js movie-this John Wick
 
-ask LIRI to get movie information from OMDB:
-
-*node liri.js movie-this John Wick*
-
-ask LIRI to get song information from Spotify of a mystery song (retrieved from external .txt doc):
-
-*node liri.js do-what-it-says*
+song information from Spotify of a mystery song (retrieved from external .txt doc) | node liri.js do-what-it-says
 
 **Please Note:** LIRI's data is color-styled in a yellow, magenta, and blue theme. If a movie or song is not provided in the request, LIRI gets mad and returns data in red.
 
 ### Screenshots
 
-my-tweets
+Command: my-tweets
 ![my-tweets](/images/liri_tweets_chalk.jpg)
 
-spotify-this-song
+Command: spotify-this-song
 ![spotify-this](/images/liri_spotify_chalk.jpg)
 
-movie-this
+Command: movie-this
 ![movie-this](/images/liri_movie_chalk.jpg)
 
-do-what-it-says
+Command: do-what-it-says
 ![do-what-it-says](/images/liri_doit_chalk.jpg)
 
 ### Technologies Applied
