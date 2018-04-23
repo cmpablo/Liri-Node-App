@@ -37,7 +37,7 @@ Command: do-what-it-says
 ### Screenshots
 
 Command: my-tweets
-![my-tweets](/gifs/liri_tweets_chalk.jpg)
+![my-tweets](/images/liri_tweets_chalk.jpg)
 
 Command: spotify-this-song
 ![spotify-this](/images/liri_spotify_chalk.jpg)
