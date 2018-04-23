@@ -105,7 +105,7 @@ function spotifyThis() {
 
                 for (let i = 0; i < info.length; i++) {
                     if (info[i]) {
-                        console.log(chalk.yellow("\n--------------------------------------------------------------------\n"));
+                        console.log(chalk.yellow("--------------------------------------------------------------------\n"));
                         console.log(chalk.magenta("Artist Name: " + chalk.blue(info[i].artists[0].name)));
                         console.log(chalk.magenta("Song Name: " + chalk.blue(info[i].name)));
                         console.log(chalk.magenta("Preview: " + chalk.blue(info[i].album.href)));
@@ -123,7 +123,7 @@ function spotifyThis() {
 function movieOutput() {
     let nodeArg = process.argv;
 
-    let movieURL = "http://www.omdbapi.com/?t=" + userInput + "&y=&plot=short&apikey=trilogy";
+    let movieURL = "http://www.omdbapi.com/?t=" + userInput + "&y=&plot=full&apikey=trilogy";
 
     if (userInput === "") {
         // if no movie input
