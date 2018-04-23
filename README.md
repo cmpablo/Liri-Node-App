@@ -10,13 +10,9 @@ Using the command line...
 
 ask LIRI to get | command
 --------------- | -----------------------------
-
 the tweets of user See_Pablo | node liri.js my-tweets
-
 song information from Spotify | node liri.js spotify-this-song Lets Go Crazy
-
 movie information from OMDB | node liri.js movie-this John Wick
-
 song information from Spotify of a mystery song (retrieved from external .txt doc) | node liri.js do-what-it-says
 
 **Please Note:** LIRI's data is color-styled in a yellow, magenta, and blue theme. If a movie or song is not provided in the request, LIRI gets mad and returns data in red.
