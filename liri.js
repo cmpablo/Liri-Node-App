@@ -55,9 +55,21 @@ function showTweets() {
     client.get('statuses/user_timeline', params, function (error, tweets, response) {
         if (!error && response.statusCode === 200) {
             for (i = 0; i < 19; i++) {
+                let tweetsCreated = tweets[i].created_at;
+                let tweetsText = tweets[i].text;
+                let tweetsInfo = tweetsCreated + tweetsText;
+
                 console.log(chalk.yellow("--------------------------------------------------------------------\n"));
                 console.log(chalk.magenta.inverse(tweets[i].created_at + "\n"));
                 console.log(chalk.blue(tweets[i].text + "\n"));
+
+                // print to log.txt
+                fs.writeFile("log.txt", tweets[i].created_at, function(err) {
+                    if (err) {
+                        return console.log(err);
+                    }
+                    console.log("Tweets were printed!")
+                })
             }
         }
     });

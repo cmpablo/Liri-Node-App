@@ -17,10 +17,27 @@ song information from Spotify of a mystery song (retrieved from external .txt do
 
 **Please Note:** LIRI's data is color-styled in a yellow, magenta, and blue theme. If a movie or song is not provided in the request, LIRI gets mad and returns data in red.
 
+### GIFs
+
+Animated GIFs to see how it all works. GIFs play through with a 5 second delay at the end.
+
+Command: my-tweets
+![gif-tweets](/gifs/liri_tweets.gif)
+
+Command: spotify-this-song
+![gif-spotify-this](/gifs/liri_spotify.gif)
+
+Command: movie-this
+![gif-movie-this](/gifs/liri_omdb.gif)
+
+Command: do-what-it-says
+![gif-do-what-it-says](/gifs/liri_doWhat.gif)
+
+
 ### Screenshots
 
 Command: my-tweets
-![my-tweets](/images/liri_tweets_chalk.jpg)
+![my-tweets](/gifs/liri_tweets_chalk.jpg)
 
 Command: spotify-this-song
 ![spotify-this](/images/liri_spotify_chalk.jpg)
